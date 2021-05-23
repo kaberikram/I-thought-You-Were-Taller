@@ -15,12 +15,12 @@ D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-14136
+3517
 Successfully changed project path to: D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller
 D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.59 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 29.57 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001049 seconds.
+Registered in 0.001250 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 27.10 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.853 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002673 seconds.
+Registered in 0.002411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,281 +63,157 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
+- Completed reload, in  0.843 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 1257 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.4 MB.
+System memory in use before: 64.5 MB.
 System memory in use after: 64.5 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1732.
-Total: 1.663500 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.064900 ms MarkObjects: 1.375000 ms  DeleteObjects: 0.065400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1733.
+Total: 1.699700 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.080700 ms MarkObjects: 1.280500 ms  DeleteObjects: 0.065300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e4f587c23674256bb898581e82961') in 0.035453 seconds
-  Import took 0.037878 seconds .
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(90314255ef3d9ec4e8dc240e67d8d9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(90314255ef3d9ec4e8dc240e67d8d9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d0995732a83985315e7e4da6b4a0ec') in 0.061869 seconds
+  Import took 0.127825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.824191 seconds.
-  path: Assets/Mesh
-  artifactKey: Guid(a8a476c9838b06f4fa95e824d3602098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh using Guid(a8a476c9838b06f4fa95e824d3602098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051722875f3ed6af1f9e7899a1dc7e1b') in 0.006893 seconds
-  Import took 0.008910 seconds .
+  Time since last request: 3.086318 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a165dfa2f3d93ea621b2a287f9d5006') in 0.084838 seconds
+  Import took 0.150760 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.858186 seconds.
-  path: Assets/Mesh/Bricks.fbx
-  artifactKey: Guid(8af080d235379f246a4a6300152e82a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Bricks.fbx using Guid(8af080d235379f246a4a6300152e82a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccea0e83546c5a4f51d0ab2336906bd') in 0.805560 seconds
-  Import took 0.807794 seconds .
+  Time since last request: 0.151186 seconds.
+  path: Packages/com.unity.ide.vscode/package.json
+  artifactKey: Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/package.json using Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9672dff00af9e48b70ec7a152e425f01') in 0.029873 seconds
+  Import took 0.046738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Mesh/Eletronics mesh.fbx
-  artifactKey: Guid(eb382a62b846f5a419f36b40738565e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Eletronics mesh.fbx using Guid(eb382a62b846f5a419f36b40738565e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2491fadb168005a9ad5861303b9cd8') in 0.019418 seconds
-  Import took 0.021482 seconds .
+  Time since last request: 0.296950 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6c25fa368c3568fe15c6d7a4bda451') in 0.046525 seconds
+  Import took 0.068115 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Mesh/Classroom_Mesh.fbx
-  artifactKey: Guid(241859a3bf2a06f4ea4fb246a6289688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Classroom_Mesh.fbx using Guid(241859a3bf2a06f4ea4fb246a6289688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794983fc11e57b98fe86b576c18fb5df') in 0.059763 seconds
-  Import took 0.063591 seconds .
+  Time since last request: 0.227308 seconds.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86356b0bf77e1824896bd5e938827a53') in 0.008396 seconds
+  Import took 0.041460 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004056 seconds.
-  path: Assets/Mesh/Classroom_Mesh.fbx
-  artifactKey: Guid(241859a3bf2a06f4ea4fb246a6289688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Classroom_Mesh.fbx using Guid(241859a3bf2a06f4ea4fb246a6289688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794983fc11e57b98fe86b576c18fb5df') in 0.056546 seconds
-  Import took 0.060717 seconds .
+  Time since last request: 0.414794 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425bb9eb6746bc63509bda2dcbe703a2') in 0.009260 seconds
+  Import took 0.060761 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.084511 seconds.
-  path: Assets/Mesh/Avatar
-  artifactKey: Guid(85c6ae0e4e186a44d87abc0592a56ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Avatar using Guid(85c6ae0e4e186a44d87abc0592a56ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc55d03053aeda453bc3a8655a965252') in 0.006672 seconds
-  Import took 0.008841 seconds .
+  Time since last request: 0.275289 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a32247993763ed35463502bcfadbfa') in 0.009989 seconds
+  Import took 0.071347 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.229817 seconds.
-  path: Assets/Mesh/Avatar/Charles_Cutted.fbx
-  artifactKey: Guid(2939752a4788e0949adc17d0566dbf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Avatar/Charles_Cutted.fbx using Guid(2939752a4788e0949adc17d0566dbf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cde24e9d4c10dd0b1f140fb1f3c332') in 0.031485 seconds
-  Import took 0.034262 seconds .
+  Time since last request: 0.296036 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dd1f35a5ff9cf11a7f36847ce181fb') in 0.035317 seconds
+  Import took 0.037351 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 163.994896 seconds.
-  path: Assets/CameraAnimations
-  artifactKey: Guid(4e5cf474478082948a39d6c2d4dc13a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations using Guid(4e5cf474478082948a39d6c2d4dc13a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000dfe3e1dfd2d39b3af9c80b5454861') in 0.006861 seconds
-  Import took 0.009617 seconds .
+  Time since last request: 0.366067 seconds.
+  path: Packages/com.unity.subsystemregistration/package.json
+  artifactKey: Guid(39ae12a67d2824dda9cb95e774ab4ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.subsystemregistration/package.json using Guid(39ae12a67d2824dda9cb95e774ab4ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e526c6fd849aa49f2c3e5963044ed7') in 0.029683 seconds
+  Import took 0.031505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.869158 seconds.
-  path: Assets/CameraAnimations/New SceneTemplate.scenetemplate
-  artifactKey: Guid(eb79b5cc43bdb4245a15f489c695b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/New SceneTemplate.scenetemplate using Guid(eb79b5cc43bdb4245a15f489c695b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04e6608a636bbcf4684ea0b98743504') in 0.012910 seconds
-  Import took 0.015624 seconds .
+  Time since last request: 0.399846 seconds.
+  path: Packages/com.unity.xr.oculus/package.json
+  artifactKey: Guid(8cf6f256af772d24eab8f4be77c7fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.oculus/package.json using Guid(8cf6f256af772d24eab8f4be77c7fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505e7a1083bbb49e719a8d0fde08c173') in 0.030825 seconds
+  Import took 0.032895 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007479 seconds.
-  path: Assets/CameraAnimations/New SceneTemplate.scenetemplate
-  artifactKey: Guid(eb79b5cc43bdb4245a15f489c695b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/New SceneTemplate.scenetemplate using Guid(eb79b5cc43bdb4245a15f489c695b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04e6608a636bbcf4684ea0b98743504') in 0.002691 seconds
-  Import took 0.005105 seconds .
+  Time since last request: 0.331786 seconds.
+  path: Packages/com.normalvr.normcore/package.json
+  artifactKey: Guid(90daf876c6f28914199e1eb070efad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.normalvr.normcore/package.json using Guid(90daf876c6f28914199e1eb070efad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feacf09073212b0f321dafaba64c053') in 0.009162 seconds
+  Import took 0.011756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 817.501367 seconds.
-  path: Assets/VoiceLines
-  artifactKey: Guid(96856ae080074a048bfc8c8152b0329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines using Guid(96856ae080074a048bfc8c8152b0329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172f77b523283e616d40defb232170f7') in 0.009153 seconds
-  Import took 0.011341 seconds .
+  Time since last request: 2.665834 seconds.
+  path: Packages/com.unity.xr.oculus/Editor
+  artifactKey: Guid(103f61d82b39f494e93197ae35676c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.oculus/Editor using Guid(103f61d82b39f494e93197ae35676c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cf00e18d0e1455e84e4e30680094fe') in 0.005813 seconds
+  Import took 0.008444 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.769517 seconds.
-  path: Assets/VoiceLines/New Recording 8.m4a
-  artifactKey: Guid(596bffcfbb7c957489b5952b473b1d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/New Recording 8.m4a using Guid(596bffcfbb7c957489b5952b473b1d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b86a8d0fb8738601a112c92fd19955') in 0.027939 seconds
-  Import took 0.029895 seconds .
+  Time since last request: 0.006932 seconds.
+  path: Packages/com.unity.xr.oculus/Editor
+  artifactKey: Guid(103f61d82b39f494e93197ae35676c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.oculus/Editor using Guid(103f61d82b39f494e93197ae35676c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cf00e18d0e1455e84e4e30680094fe') in 0.030944 seconds
+  Import took 0.033018 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.192568 seconds.
-  path: Assets/VoiceLines/New Recording 7.m4a
-  artifactKey: Guid(1d86b8bdb29f95b438557ea5b6d1af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/New Recording 7.m4a using Guid(1d86b8bdb29f95b438557ea5b6d1af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb5663155a58a808cf65c87eede226b') in 0.006851 seconds
-  Import took 0.009010 seconds .
+  Time since last request: 0.032765 seconds.
+  path: Packages/com.unity.xr.oculus/Editor/Unity.XR.Oculus.Editor.asmdef
+  artifactKey: Guid(d1502596da9f12c4ead8bb8b8542bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.oculus/Editor/Unity.XR.Oculus.Editor.asmdef using Guid(d1502596da9f12c4ead8bb8b8542bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f525381a55a1c0ce8c8d77cbc73bb56') in 0.009915 seconds
+  Import took 0.011672 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.571818 seconds.
-  path: Assets/VoiceLines/New Recording 6.m4a
-  artifactKey: Guid(7529c4c076311964ba080511da4554b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/New Recording 6.m4a using Guid(7529c4c076311964ba080511da4554b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3534d2ce1379707e62cdb18518b3228a') in 0.006838 seconds
-  Import took 0.028712 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\Unity\AreYouTaller\I-thought-You-Were-Taller\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\Unity\AreYouTaller\I-thought-You-Were-Taller\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.510752 seconds.
-  path: Assets/VoiceLines/New Recording 5.m4a
-  artifactKey: Guid(e01f38d6ab3d55741a18e1bcacc811bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/New Recording 5.m4a using Guid(e01f38d6ab3d55741a18e1bcacc811bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d18a76f841c7f88b0fe5b85a108bf9b') in 0.006779 seconds
-  Import took 0.009234 seconds .
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001055 seconds.
-  path: Assets/VoiceLines/New Recording 5.m4a
-  artifactKey: Guid(e01f38d6ab3d55741a18e1bcacc811bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/New Recording 5.m4a using Guid(e01f38d6ab3d55741a18e1bcacc811bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d18a76f841c7f88b0fe5b85a108bf9b') in 0.003535 seconds
-  Import took 0.005885 seconds .
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 84.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 62.729740 seconds.
-  path: Assets/VoiceLines/Charles Speaking
-  artifactKey: Guid(d0a1c20b8f0491f4cbe69a4677c717b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/Charles Speaking using Guid(d0a1c20b8f0491f4cbe69a4677c717b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1221ff7d9729abbfaaf00f68ec32e669') in 0.006500 seconds
-  Import took 0.008635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.611289 seconds.
-  path: Assets/VoiceLines/WhiteNoise.wav
-  artifactKey: Guid(c9f2e550e5d5b144191ad76d283edb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/WhiteNoise.wav using Guid(c9f2e550e5d5b144191ad76d283edb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f7022ccdf661f9c9715252a4458f5f') in 0.171385 seconds
-  Import took 0.173320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.921020 seconds.
-  path: Assets/VoiceLines/Whispers2.wav
-  artifactKey: Guid(2756e8c4c688cd943a6b7765e6b16587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/Whispers2.wav using Guid(2756e8c4c688cd943a6b7765e6b16587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c91994de2a760bff7ca79c0be2d16d9') in 0.015039 seconds
-  Import took 0.017145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.843757 seconds.
-  path: Assets/VoiceLines/NoiseWhispers.wav
-  artifactKey: Guid(2756e8c4c688cd943a6b7765e6b16587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/NoiseWhispers.wav using Guid(2756e8c4c688cd943a6b7765e6b16587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f24f747190ea055967127f5c26ed9f') in 0.010018 seconds
-  Import took 0.012013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006530 seconds.
-  path: Assets/VoiceLines/NoiseWhispers.wav
-  artifactKey: Guid(2756e8c4c688cd943a6b7765e6b16587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/NoiseWhispers.wav using Guid(2756e8c4c688cd943a6b7765e6b16587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f24f747190ea055967127f5c26ed9f') in 0.007796 seconds
-  Import took 0.009752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 437.644653 seconds.
-  path: Assets/VoiceLines/Charles Speaking/New Recording 5.wav
-  artifactKey: Guid(cb020c38ac590fb4c9012d169e4318dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/Charles Speaking/New Recording 5.wav using Guid(cb020c38ac590fb4c9012d169e4318dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190ff25ffd7d32a5fd5417dd2de86cf7') in 0.014486 seconds
-  Import took 0.021186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/VoiceLines/Charles Speaking/New Recording 7.wav
-  artifactKey: Guid(ac02f375c89e7b843a7bca3c0b11bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/Charles Speaking/New Recording 7.wav using Guid(ac02f375c89e7b843a7bca3c0b11bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af27ac2852232bf26ba21f53c656c0fb') in 0.022129 seconds
-  Import took 0.024864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/VoiceLines/Charles Speaking/New Recording 8.wav
-  artifactKey: Guid(c46b70b5a5ffb334486c4c772d174256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/Charles Speaking/New Recording 8.wav using Guid(c46b70b5a5ffb334486c4c772d174256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15766d22a5e9f2166b67be93447109a3') in 0.016125 seconds
-  Import took 0.019295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/VoiceLines/Charles Speaking/New Recording 6.wav
-  artifactKey: Guid(faa7363164ef5fa48b5383f0bea18d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VoiceLines/Charles Speaking/New Recording 6.wav using Guid(faa7363164ef5fa48b5383f0bea18d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d25da41bb3faa6a87c642ffbddb069') in 0.023020 seconds
-  Import took 0.028833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1534.717288 seconds.
-  path: Assets/Mesh/Vive.fbx
-  artifactKey: Guid(15d6e40b82f712f4fb3bba3e81441490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Vive.fbx using Guid(15d6e40b82f712f4fb3bba3e81441490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17a71f198429164be26afc1e2ad44b') in 0.450908 seconds
-  Import took 0.471789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1019.206697 seconds.
-  path: Assets/Scenes/AREYOUTALL.unity
-  artifactKey: Guid(f32831c6412ce1446bfefa020507cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AREYOUTALL.unity using Guid(f32831c6412ce1446bfefa020507cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd152bb368a347b6a6392f11ecbe649') in 0.010209 seconds
-  Import took 0.073891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1945.017820 seconds.
-  path: Assets/CameraAnimations/Cam1Rig.controller
-  artifactKey: Guid(b2c66308108e5b8438edff5cf818a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/Cam1Rig.controller using Guid(b2c66308108e5b8438edff5cf818a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ce89ebe555b82a0a3b1ce78f637566') in 0.013620 seconds
-  Import took 0.053969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.152701 seconds.
-  path: Assets/CameraAnimations/Cam1Controller.controller
-  artifactKey: Guid(b2c66308108e5b8438edff5cf818a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/Cam1Controller.controller using Guid(b2c66308108e5b8438edff5cf818a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b154afb88bc9af3465d9a022dec32') in 0.006881 seconds
-  Import took 0.008829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.027284 seconds.
-  path: Assets/CameraAnimations/Cam1Animation.anim
-  artifactKey: Guid(60ecf09ec4637c9449a967098beefb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/Cam1Animation.anim using Guid(60ecf09ec4637c9449a967098beefb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05daac8497472bf864eb4ac6b3e975d') in 0.009711 seconds
-  Import took 0.017503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1055.743132 seconds.
-  path: Assets/CameraAnimations/Cam1Animation.anim
-  artifactKey: Guid(60ecf09ec4637c9449a967098beefb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/Cam1Animation.anim using Guid(60ecf09ec4637c9449a967098beefb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb1281628ba861a5595526baebb1d67') in 0.002970 seconds
-  Import took 0.005408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012633 seconds.
-  path: Assets/CameraAnimations/Cam1Animation.anim
-  artifactKey: Guid(60ecf09ec4637c9449a967098beefb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraAnimations/Cam1Animation.anim using Guid(60ecf09ec4637c9449a967098beefb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb1281628ba861a5595526baebb1d67') in 0.002094 seconds
-  Import took 0.004135 seconds .
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 5.661500 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.076200 ms MarkObjects: 1.455600 ms  DeleteObjects: 3.937800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
