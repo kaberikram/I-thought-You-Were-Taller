@@ -29,8 +29,8 @@ Material:
     - _GlitchPeriod: 0
     - _GlitchStrength: 0.076
     - _HoloDistance: 0.27
-    - _HoloSpeed: 1.8
-    - _HoloValue: 1
+    - _HoloSpeed: 10
+    - _HoloValue: 10
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0.06666667}
     - _GlitchDirection: {r: 0, g: 1, b: 0, a: 0}
