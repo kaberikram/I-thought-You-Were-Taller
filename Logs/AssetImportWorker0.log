@@ -1,40 +1,134 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'pl' Physical Memory: 8038 MB
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'zh' Physical Memory: 16226 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\unity\2020.3.4f1\Editor\Unity.exe
+D:\Softwares\Unity 2018.4\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/PulpitTakiJakby/STH/I-thought-You-Were-Taller
+D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50310
-Successfully changed project path to: D:/PulpitTakiJakby/STH/I-thought-You-Were-Taller
-D:/PulpitTakiJakby/STH/I-thought-You-Were-Taller
+13975
+Successfully changed project path to: D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller
+D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 161.41 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 7.02 ms.
+Refreshing native plugins compatible for Editor in 61.20 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path D:/unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/PulpitTakiJakby/STH/I-thought-You-Were-Taller/Assets
+[Subsystems] Discovering subsystems at path D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project/Unity/AreYouTaller/I-thought-You-Were-Taller/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6627
+    VRAM:     3962 MB
+    Driver:   27.21.14.6259
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'D:/unity/2020.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Mono path[0] = 'D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Softwares/Unity 2018.4/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001258 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.65 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.60.0
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.0 MB.
+System memory in use after: 94.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 1.882900 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.080800 ms MarkObjects: 1.484600 ms  DeleteObjects: 0.128400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/RadoSth/Materials/Sth3.mat
+  artifactKey: Guid(b2875334bdc48c949853c9424d948f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RadoSth/Materials/Sth3.mat using Guid(b2875334bdc48c949853c9424d948f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77629eaef625c5b58d6a72b0e41ec5b') in 0.124009 seconds
+  Import took 0.157335 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 1732 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 2.353800 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.088900 ms MarkObjects: 1.985200 ms  DeleteObjects: 0.038400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 1732 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 2.156800 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.093600 ms MarkObjects: 1.763700 ms  DeleteObjects: 0.035400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.983174 seconds.
+  path: Assets/RadoSth/Materials/Sth3.mat
+  artifactKey: Guid(b2875334bdc48c949853c9424d948f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RadoSth/Materials/Sth3.mat using Guid(b2875334bdc48c949853c9424d948f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4ad8c183a21386ab895d4d0dae5e2') in 0.067605 seconds
+  Import took 0.073137 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
